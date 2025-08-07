@@ -137,7 +137,7 @@ function HeroSection() {
                 <span className="text-amber-300">Wordpress</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Figma/Photoshop</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">{`']`}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
