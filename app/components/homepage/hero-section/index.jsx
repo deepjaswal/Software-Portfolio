@@ -32,13 +32,13 @@ function HeroSection() {
           </h1>
 
           <div className="my-12 flex items-center gap-5">
-            <Link
+            {/* <Link
               href={personalData.github}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
-            </Link>
+            </Link> */}
             <Link
               href={personalData.linkedIn}
               target='_blank'
@@ -46,27 +46,27 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.facebook}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href={personalData.leetcode}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <SiLeetcode size={30} />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href={personalData.twitter}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="flex items-center gap-3">
@@ -108,30 +108,36 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Deep Jaswal</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
+                <span className="text-amber-300">Html</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
+                <span className="text-amber-300">Css</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
+                <span className="text-amber-300">Javscript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Express</span>
+                <span className="text-amber-300">React js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
+                <span className="text-amber-300">Next js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">Tailwind</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MongoDB</span>
+                <span className="text-amber-300">Scss</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
+                <span className="text-amber-300">Material ui</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-amber-300">React Query</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Blazor Ui</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Wordpress</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Figma/Photoshop</span>
+                <span className="text-gray-400">{"', '"}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
