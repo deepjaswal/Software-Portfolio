@@ -1,7 +1,3 @@
-
-'use client'
-
-
 import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
@@ -14,8 +10,8 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Deep Jaswal - Software Developer",
- };
+  title: "Portfolio of Deep jaswal - Software Developer",
+  };
 
 export default function RootLayout({ children }) {
   return (
@@ -29,6 +25,7 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
       </body>
-      </html>
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+    </html>
   );
 }
