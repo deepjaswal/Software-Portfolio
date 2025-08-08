@@ -16,7 +16,7 @@ export const experiences = [
     id: 3,
     title: "Web Designer",
     company: "Clerisy Solutions Pvt Ltd",
-    duration: "(Nov 2020 - Mar )"
+    duration: "(Nov 2020 - Mar 2022)"
   },
   {
     id: 4,
